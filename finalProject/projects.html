@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Kory McKitrick - Projects</title>
+   <meta charset="utf-8" />
+
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Urbanist&display=swap" rel="stylesheet">
+   
+   <!--Bootstrap Script-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   <link href="css/styles.css" rel="stylesheet" />
+   <link href="css/media.css" rel="stylesheet" />
+
+   <style>
+        div.row {
+            padding: 30px;
+        }
+
+        article.card {
+            margin: auto;
+            width: 100%;
+            box-shadow: 12px 0 15px -4px rgba(0, 0,0,0.2), -12px 0 8px -4px rgba(0, 0,0,0.2);
+            transition: 0.3s;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        article.card img {
+            width: 100%;
+            height: 88%;
+        }
+
+        article.card h3 {
+            text-align: center;
+            font-family: 'Urbanist', sans-serif;
+            color: #011627;
+            padding: 10px;
+        }
+
+        article.card > .content p {
+            text-align: center;
+            font-family: 'Urbanist', sans-serif;
+            font-size: .9em;
+            color: #011627;
+        }
+        
+        article.card:hover {
+            box-shadow: 12px 0 15px 5px rgba(0, 0,0,0.2), -12px 0 8px 5px rgba(0, 0,0,0.2);
+            transform: scale(1.05);
+        }
+   </style>
+
+  
+</head>
+
+<body>
+<header>
+
+
+    <nav class="navbar">
+        <div class="logo"><img id="pfp" src="images/portfolio_pfp.jpg" alt="Profile Picture"></div>
+            <ul class="nav-links">
+                 <input type="checkbox" id="checkbox_toggle" />
+                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
+                 <div class="menu">
+                    <li><a href ="index.html">Home</a></li>
+                    <li><a href ="about.html">About Me</a></li>
+                    <li><a href ="projects.html">Projects</a></li>
+                    <li><a href ="contact.html">Contact</a></li>
+                </div>
+            </ul>
+    </nav>
+
+</header>
+
+<div class = "container">
+
+    <h1>Projects</h1>
+
+    <div class = "row">
+        <div class = "col-md-4 col-sm-12">
+            <article class="card">
+                <a href ="https://github.com/ksmckitrick"><img src="images/java.jpg" alt="Java Logo" /></a>
+        
+                <div class = "content">
+                    <h3>Java</h3>
+                    <p>Java projects stored in a GitHub repository.</p>
+                </div>
+            </article>
+        </div>
+        <div class = "col-md-4 col-sm-12">
+            <article class="card">
+                <a href = "https://codepen.io/ksmckitrick"><img src="images/codepen.png" alt="Codepen Logo" /></a>
+                <div class = "content">
+                    <h3>CodePen</h3>
+                    <p>Code snippets for HTML/CSS.</p>
+                </div>
+            </article>
+        </div>
+        <div class = "col-md-4 col-sm-12">
+            <article class="card">
+                <a href ="Portfolio"><img src="images/csslogo.webp" alt="test" /></a>
+        
+                <div class = "content">
+                    <h3>Portfolio</h3>
+                    <p>About this Portfolio Project</p>
+                </div>
+            </article>
+        </div>
+    </div> 
+    
+    <footer id="footer">
+        Kory McKitrick &#183; Web Developer &#183;
+        <a href="mailto:korymckitrick1@gmail.com">korymckitrick1@gmail.com</a> 
+    </footer>
+
+</div>
+
+
+
+
+
+</body>
+</html>
